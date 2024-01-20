@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DirectCrafter\DirectCrafter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{db9086fe-bacc-4437-8272-1aa6642082db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PropertySheet.props" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectCrafter\include\core\Logger.hpp" />
+    <ClInclude Include="DirectCrafter\include\util\ANSIFormatter.hpp" />
+    <ClInclude Include="DirectCrafter\include\core\Settings.hpp" />
+    <ClInclude Include="DirectCrafter\include\core\GraphicsManager.hpp" />
+    <ClInclude Include="DirectCrafter\include\exception\DXException.hpp" />
+    <ClInclude Include="DirectCrafter\include\exception\WinException.hpp" />
+    <ClInclude Include="DirectCrafter\include\exception\MessageBox.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\Renderer.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\Vertex.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\Shader.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\ShaderManager.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\Mesh.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\Texture.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\TextureManager.hpp" />
+    <ClInclude Include="DirectCrafter\include\core\InputManager.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\Camera.hpp" />
+    <ClInclude Include="DirectCrafter\include\math\Transform.hpp" />
+    <ClInclude Include="DirectCrafter\include\entity\Player.hpp" />
+    <ClInclude Include="DirectCrafter\include\render\MinimalCamera.hpp" />
+  </ItemGroup>
+</Project>
